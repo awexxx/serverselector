@@ -1,0 +1,17 @@
+name: ServerSelector
+version: 1.0
+main: vb.$serverselector.PluginMain
+author: Alex Frantz
+description: For the PlagueCraft Network
+api-version: 1.13
+commands:
+  menu:
+    description: Server Selector
+    aliases: [ss]
+    permission: pcn.ss
+    permission-message: &cgg You lack the "&4pcn.ss&f" permission(s).
+  reload:
+    description: Reloads the plugin
+    aliases: [rl]
+    permission: pcn.reload
+    permission-message: &cYou lack the "&4pcn.reload&f" permission(s).
